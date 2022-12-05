@@ -1,2 +1,19 @@
-
 /* Your CSS Code here. */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 300px; */
+  /* background-color: DodgerBlue; */
+}
+
+.flex-container > div {
+  height: 100px;
+  width: 100px;
+  margin-top: 20rem;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  /* z-index: 2000; */
+}
